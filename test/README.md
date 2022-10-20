@@ -1,3 +1,0 @@
-# anew
-
-create today();
