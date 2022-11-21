@@ -1,7 +1,5 @@
-# Step 1 : Base image
-FROM ubuntu:lates
+FROM ubuntu:latest
 
-# Step 2 : env setup
-ENV NAME="Kim"\
-	NICKNAME="imp"\
-	AGE=27
+ENV NAME="kim" \
+	NICKNAME="jun" \
+	AGE=29

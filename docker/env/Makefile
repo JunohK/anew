@@ -1,5 +1,5 @@
 build:
-	docker build -t ubuntu . 
+	docker build -t ubuntu .
 run:
 	docker run -it --name ubuntu ubuntu
 history:
