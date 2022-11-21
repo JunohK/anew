@@ -1,11 +1,19 @@
 OBJF = test1.o test2.o test3.o
 test : $(OBJF)
 	gcc -o $@ $^
+<<<<<<< HEAD
 test1.o : test1.c a.h
 	gcc -c $<
 test2.o : test2.c a.h b.h
 	gcc -c $*.c
 test3.o : test3.c b.h c.h
+=======
+test1.0 : test1.c a.h
+	gcc -c $<
+test2.0 : test2.c a.h b.h
+	gcc -c $*.c
+test3.0 : test3.c b.h c.h
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
 	gcc -c $<
 clean : test $(OBJF)
 	rm -rf $^

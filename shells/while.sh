@@ -3,7 +3,11 @@
 a=1
 
 while [ $a != "0" ]; do
+<<<<<<< HEAD
 	echo -n "Input: "
+=======
+	echo -n "Input : "
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
 	read a
 
 	if [ $a != "0" ]; then

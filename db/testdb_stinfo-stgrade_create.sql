@@ -3,7 +3,11 @@ show databases;
 use testdb;
 show tables;
 
+<<<<<<< HEAD
 create table st_info(ST_ID int, NAME varchar(20),DEPT varchar(25)) default charset=utf8;
+=======
+create table st_info(ST_ID int, NAME varchar(20), DEPT varchar(25)) default charset=utf8;
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
 show tables;
 
 create table st_grade(ST_ID int, Linux int, DB int);
@@ -18,6 +22,7 @@ alter table st_grade add constraint pk_stgrade primary key(ST_ID);
 explain st_info;
 explain st_grade;
 
+<<<<<<< HEAD
 insert into st_info values (202201, 'LeeGilDong', 'Game');
 insert into st_info values (202202, 'KimGilDong', 'Computer');
 insert into st_info values (202203, 'HongGilDong', 'Gaome');
@@ -27,3 +32,14 @@ insert into st_grade values(202201, '80', '70');
 insert into st_grade values(202202, '90', '75');
 insert into st_grade values(202203, '95', '85');
 select * from st_grade;
+=======
+insert into st_info values (202201, 'LeeGiilDong', 'Game');
+insert into st_info values (202202, 'KimGiilDong', 'Computer');
+insert into st_info values (202203, 'HongGiilDong', 'Game');
+select * from st_info;
+
+insert into st_grade values (202201, '80', '70');
+insert into st_grade values (202202, '90', '75');
+insert into st_grade values (202203, '95', '85');
+select * from st_grade;
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425

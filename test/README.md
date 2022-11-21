@@ -1,0 +1,3 @@
+# anew
+
+create today();

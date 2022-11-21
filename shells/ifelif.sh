@@ -3,7 +3,11 @@
 a=0
 
 echo -n "Input : "
+<<<<<<< HEAD
 read a 
+=======
+read a
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
 
 if [ $a -ge 90 ]; then
 	echo A

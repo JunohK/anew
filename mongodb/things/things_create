@@ -1,8 +1,13 @@
 use test
 db.things.drop()
 
+<<<<<<< HEAD
 m={ename : "smith"}
 n={empno : 1101}
+=======
+m={ename:"smith"}
+n={empno:1101}
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
 db.things.save(m)
 db.things.save(n)
 db.things.find()

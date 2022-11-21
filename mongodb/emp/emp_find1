@@ -1,4 +1,8 @@
 use test
 db.emp.dropIndex({ename:1})
 db.emp.createIndex({ename:1})
+<<<<<<< HEAD
 db.emp.find({},{_id:0, eno:1, ename:1, depno:1})
+=======
+db.emp.find({},{_id:0, eno:1, ename:1})
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425

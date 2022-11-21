@@ -1,6 +1,10 @@
 use test
 db.emp.count()
+<<<<<<< HEAD
 db.emp.find({},{_id:0. ename:1, sal:1})
+=======
+db.emp.find({},{_id:0, ename:1, sal:1})
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
 
 db.emp.update(
     {sal:{$gte:3500}},

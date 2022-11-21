@@ -1,10 +1,15 @@
 # anew
 
+<<<<<<< HEAD
 #environment files
+=======
+# environment files
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
 .env
 
 # nodejs node_modules
 node/**/node_modules
+<<<<<<< HEAD
 node/**/package-lock.json
 
 #mongodb backup /json
@@ -14,3 +19,10 @@ mongodb/backup
 python/**/.venv
 
 
+=======
+
+# mongodb backup / json
+mongodb/**/*.json
+
+mongodb/backup
+>>>>>>> e0096d113df2eeb29a9e1019698c735ffb1c7425
