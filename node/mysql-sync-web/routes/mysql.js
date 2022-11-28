@@ -87,7 +87,7 @@ app.get("/update", (req, res) => {
       ST_ID
   ]);
 
-  urls = "http://13.209.234.117:3000/select/"
+  urls = "http://15.164.184.253:3000/select/"
   request(urls, { json:true }, (err, result, body) => {
     if (err) { return console.log(err) }
     res.send(CircularJSON.stringify(body))
