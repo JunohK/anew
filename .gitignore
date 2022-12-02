@@ -11,6 +11,8 @@
 node/**/node_modules
 <<<<<<< HEAD
 node/**/package-lock.json
+node/**/node_modules
+node/config/pool.js
 
 #mongodb backup /json
 mongodb/**/*.json
