@@ -13,6 +13,7 @@ node/**/node_modules
 node/**/package-lock.json
 node/**/node_modules
 node/config/pool.js
+node/**/uploadedFiles
 
 #mongodb backup /json
 mongodb/**/*.json
