@@ -24,11 +24,10 @@ router.get('/list', function(req, res, next) {
 
 //get
 router.get('/get', function(req, res, next){
-    db = req.db;
     var userid = req.query.userid
     User.findone({'userid' : userid}, function(err,doc) {
         if(err) console.log('err')
-        res.send(docs)
+        res.send(doc)
     })
 })
 
