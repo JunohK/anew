@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="wf.css"/>
+  <title>Workflow</title>
+ </head>
+<body>
+ 
+  <nav id="nav2">
+    <a href="#">mini</a>
+    <ul>
+      <li><a href="#">검색</a></li>
+      <li><a href="#">마이페이지</a></li>
+    </ul>
+  </nav>
+  
+  <div id="wrap">
+   <div class = "b1" style="height:500px;">
+     <form method="post" action='/api/users/userBody' name='userForm' target='targetURL'>
+      제목 
+      <input type="text" name="workflow_title" size="50" ><br>
+      <input type="text" name="workflow_text" size="100"><br>
+      <input type="date" name="start_date" size="30">
+      <input type="number" name="time_predic" size="30">
+      <input type="number" name="crontab"  size="30"><br>
+      <button id="btn1" type="submit" name='userBody' formaction='/insert'> 등록 </button><br>
+ ---------------------------------------------------------------------------------------------------<br>
+       <iframe name="targetURL" class="iframe-preview center" width="90%" height="380" style="border:none;" src="http://15.164.184.253:3000/list">
+       </iframe>
+     </form>
+   </div>
+  </div>
+</body>
+</html>
